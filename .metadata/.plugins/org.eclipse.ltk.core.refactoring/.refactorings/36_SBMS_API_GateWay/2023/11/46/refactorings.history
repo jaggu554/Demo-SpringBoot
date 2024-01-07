@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.example.filter.Myfliter.java&apos; to &apos;Myfilter.java&apos;&#x0D;&#x0A;- Original project: &apos;36_SBMS_API_GateWay&apos;&#x0D;&#x0A;- Original element: &apos;com.example.filter.Myfliter.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.filter.Myfilter.java&apos;" description="Rename compilation unit &apos;Myfliter.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.filter{Myfliter.java" name="Myfilter.java" references="false" stamp="1700287319387" version="1.0"/>
+</session>

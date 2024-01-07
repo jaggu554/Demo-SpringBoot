@@ -1,0 +1,21 @@
+package com.jaggu;
+
+public class PaymentService {
+
+	private IPayment payment;
+	
+	public PaymentService(IPayment payment) {
+		this.payment=payment;
+	}
+	public IPayment getPayment() {
+		return payment;
+	}
+
+	public void setPayment(IPayment payment) {
+		this.payment = payment;
+	}
+
+	public void doPayment() {
+		
+	}
+}

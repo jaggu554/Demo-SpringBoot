@@ -1,0 +1,26 @@
+package in.ashokit;
+
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.data.domain.Sort;
+
+import in.ashokit.entity.Employee;
+import in.ashokit.repository.EmployeeRepository;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
+		EmployeeRepository repo = ctx.getBean(EmployeeRepository.class);
+		int pageNO=1;
+		
+		List<Employee> emps=repo.findAll(asc);
+		
+		emps.forEach(System.out::println);
+	}
+
+}

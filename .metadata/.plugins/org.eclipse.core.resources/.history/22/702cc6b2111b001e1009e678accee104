@@ -1,0 +1,24 @@
+package in.ashokit;
+
+import java.util.Arrays;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import in.ashokit.entity.Employee;
+import in.ashokit.repository.EmployeeRepository;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
+		EmployeeRepository repo = ctx.getBean(EmployeeRepository.class);
+		Employee e1 = new Employee(522, "vijay", 68000.0, "Male", "HR");
+		Employee e2 = new Employee(538, "Sandhya", 80000.90, "Female", "Marketing");
+		Employee e3 = new Employee(504, "Archana", 70000.90, "Female", "HR");
+		repo.saveAll(Arrays.asList(e1,e2,e3));
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.jaggu;
+
+public class PaymentService {
+
+	public void doPayment() {
+		
+	}
+}

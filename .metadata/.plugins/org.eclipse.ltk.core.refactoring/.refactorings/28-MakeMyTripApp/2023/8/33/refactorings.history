@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.example.response&apos; to &apos;27-IRCTC-TrainTicketBookingApp/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;28-MakeMyTripApp&apos;&#x0D;&#x0A;- Destination element: &apos;27-IRCTC-TrainTicketBookingApp/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;28-MakeMyTripApp/src/main/java/com.example.response&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=27-IRCTC-TrainTicketBookingApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.response" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1692013825992" version="1.0"/>
+</session>

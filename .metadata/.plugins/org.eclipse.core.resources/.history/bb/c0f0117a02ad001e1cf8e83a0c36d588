@@ -1,0 +1,11 @@
+package com.jaggu;
+
+public class DebitCard implements IPayment{
+
+	@Override
+	public boolean processPayment(double billAmt) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.jaggu;
+
+public class PaymentService {
+
+	private Ipayment 
+	public void doPayment() {
+		boolean status=
+	}
+}

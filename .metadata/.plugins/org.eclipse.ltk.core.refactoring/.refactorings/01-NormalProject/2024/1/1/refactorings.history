@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Engine.java&apos; to &apos;01-NormalProject/src/com.jaggu&apos;&#x0D;&#x0A;- Original project: &apos;01-NormalProject&apos;&#x0D;&#x0A;- Destination element: &apos;01-NormalProject/src/com.jaggu&apos;&#x0D;&#x0A;- Original element: &apos;Engine.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.jaggu" element1="/src&lt;{Engine.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1704533913180" units="1" version="1.0"/>
+</session>

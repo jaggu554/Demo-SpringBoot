@@ -1,0 +1,20 @@
+package in.ashokit;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import in.ashokit.entity.Employee;
+import in.ashokit.repository.EmployeeRepository;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
+		EmployeeRepository repo = ctx.getBean(EmployeeRepository.class);
+		Employee e1 = new Employee(553, "Nagendra", 78000.90, "Male", "Finance");
+		repo.save(e1);
+	}
+
+}

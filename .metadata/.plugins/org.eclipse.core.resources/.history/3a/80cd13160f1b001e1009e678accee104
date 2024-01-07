@@ -1,0 +1,18 @@
+package in.ashokit;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import in.ashokit.repository.EmployeeRepository;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ctx=SpringApplication.run(Application.class, args);
+		EmployeeRepository repo=ctx.getBean(EmployeeRepository.class);
+		System.out.println(repo.getClass().getName());
+	}
+
+}

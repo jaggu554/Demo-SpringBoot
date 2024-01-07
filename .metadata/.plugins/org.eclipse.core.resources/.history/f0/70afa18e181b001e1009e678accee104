@@ -1,0 +1,27 @@
+package in.ashokit;
+
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+
+import in.ashokit.entity.Employee;
+import in.ashokit.repository.EmployeeRepository;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);
+		EmployeeRepository repo = ctx.getBean(EmployeeRepository.class);
+		int pageNo=1;
+		PageRequest page=PageRequest.of(pageNo-1, 2);
+		Page<Employee> findall=repo.findAll(page);
+		List<Employee> emps=findall.getContent();	
+		emps.forEach(System.out::println);
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.example.rest;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.example.bind.User;
+
+public class UserRestController {
+	
+	private Map<Integer,User> map=new HashMap<>();
+
+}

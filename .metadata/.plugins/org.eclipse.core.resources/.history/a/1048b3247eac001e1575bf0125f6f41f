@@ -1,0 +1,15 @@
+package com.jaggu;
+
+public class Car {
+
+	IEngine eng;
+	public void drive() {
+		
+		if(status>=1) {
+			System.out.println("Journey Started...");
+		}else {
+			System.out.println("Engine Problem");
+		}
+	}
+	
+}

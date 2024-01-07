@@ -1,0 +1,12 @@
+package in.ashokit.binding;
+
+import lombok.Data;
+
+@Data
+@A
+public class Customer {
+	private Integer id;
+	private String name;
+	private String address;
+
+}

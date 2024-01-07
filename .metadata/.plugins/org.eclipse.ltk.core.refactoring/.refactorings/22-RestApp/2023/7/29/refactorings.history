@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Customer.java&apos; to &apos;23-Jax-B-App/src/main/java/com.example.binding&apos;&#x0D;&#x0A;- Original project: &apos;22-RestApp&apos;&#x0D;&#x0A;- Destination element: &apos;23-Jax-B-App/src/main/java/com.example.binding&apos;&#x0D;&#x0A;- Original element: &apos;com.example.Customer.java&apos;" description="Copy compilation unit" destination="=23-Jax-B-App/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.binding" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example{Customer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1690044286209" units="1" version="1.0"/>
+</session>
